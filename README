@@ -1,0 +1,18 @@
+NUnit setup
+==============================================================================
+In order to run the unit tests in Zot.Core.Test, you must add a NUNIT_LOC
+environment variable that points to your current NUnit framework
+distribution.  You must restart Visual Studio in order for it to be able to
+find the new environment variable (where's my 'source .vsconfig' Microsoft!!).
+This will also provide the flexibility to update the environment variable
+whenever new NUnit distributions are made available without having to change
+project settings.
+
+Zot.Core
+==============================================================================
+
+Zot.Core.Test
+==============================================================================
+
+Zot.Main
+==============================================================================
