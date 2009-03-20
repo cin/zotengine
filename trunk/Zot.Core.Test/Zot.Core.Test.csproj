@@ -27,6 +27,7 @@
     <StartAction>Program</StartAction>
     <StartProgram>$(NUNIT_LOC)/bin/nunit.exe</StartProgram>
     <StartArguments>Zot.Core.Test.dll</StartArguments>
+    <PlatformTarget>x86</PlatformTarget>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
